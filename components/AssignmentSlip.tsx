@@ -141,8 +141,8 @@ export const AssignmentSlip = forwardRef<HTMLDivElement, AssignmentSlipProps>(
 
     // Estilos ajustados
     const rowClass = "flex items-end w-full";
-    // Increased from text-[19px] to text-[20px]
-    const labelClass = "font-bold text-[20px] mr-2 text-black shrink-0 pb-[3px] leading-none";
+    // Increased from text-[19px] to text-[22px] for better visibility on mobile
+    const labelClass = "font-bold text-[22px] mr-2 text-black shrink-0 pb-[3px] leading-none";
     const inputContainerClass = "flex-grow border-b-[2px] border-dotted border-black relative z-10"; // z-10 for stacking context
     // inputClass needs to be passed to Combobox
     const inputClass = "w-full bg-transparent border-none outline-none text-[19px] font-normal text-gray-900 absolute bottom-[2px] px-1 font-s89 leading-none";

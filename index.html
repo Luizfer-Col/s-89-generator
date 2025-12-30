@@ -4,11 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Asignación S-89-S</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-      /* Enforcing Arial for the specific form look */
+      /* Using Roboto for better cross-platform font rendering */
       .font-s89 {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: Roboto, system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+        font-synthesis: none;
+      }
+      
+      /* Apply font smoothing to entire body */
+      body {
+        font-family: Roboto, system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+        font-synthesis: none;
+      }
+      
+      /* Ensure font weights are correctly rendered */
+      .font-bold {
+        font-weight: 900 !important;
+      }
+      
+      .font-normal {
+        font-weight: 400 !important;
+      }
+      
+      /* Ensure bold headings render correctly */
+      h1 {
+        font-weight: 900;
+      }
+      
+      /* Force font weight for labels */
+      label {
+        font-weight: 900;
+      }
+      
+      /* Improve text rendering on mobile */
+      * {
+        -webkit-text-size-adjust: 100%;
       }
     </style>
   <script type="importmap">
